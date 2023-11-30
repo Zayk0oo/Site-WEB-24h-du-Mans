@@ -63,7 +63,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/fond.jpg);
   background-size: cover;
   background-position: top right;
 }
@@ -142,7 +142,7 @@ a:focus {
   font-family: 'Baloo Chettan', cursive;
   font-size: 24px;
   font-weight: 700;
-  color: #191919;
+  color: #fdfdfd;
   margin-top: 5px;
 }
 
@@ -326,7 +326,7 @@ a:focus {
 .why_section {
   text-align: center;
   color: #ffffff;
-  background-image: url(../images/why-bg.jpg);
+  background-image: url(../images/bluepart.jpg);
   background-size: cover;
   position: relative;
 }
@@ -555,7 +555,7 @@ a:focus {
 
 .arrange_section {
   padding: 10% 0;
-  background-image: url(../images/arrangement.jpg);
+  background-image: url(../images/cadrefond.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -685,7 +685,15 @@ a:focus {
 .info_section {
   background-color: #252525;
   color: #ffffff;
-}
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  }
+  
+  .info_section {
+    flex: 1;
+  }
+  
 
 .info_section h5 {
   margin-bottom: 20px;
